@@ -195,7 +195,7 @@ h1 .green {
     padding: 18px;
     border-radius: 12px;
     overflow: hidden;
-    background: linear-gradient(rgba(0,0,0,0.28), rgba(0,0,0,0.12)), url("planta.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.28), rgba(0,0,0,0.12)), url("planta.avif") center/cover no-repeat;
     background-blend-mode: overlay;
     color: #fff;
 }
@@ -277,7 +277,7 @@ h1 .green {
     right: -8px;
     bottom: -12px;
     width: 150px;
-    background: linear-gradient(rgba(0,0,0,0.28), rgba(0,0,0,0.12)), url("planta.jpg") center/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.28), rgba(0,0,0,0.12)), url("planta.avif") center/cover no-repeat;
     border: 8px solid #111;
     border-radius: 28px;
     padding: 16px 14px;
