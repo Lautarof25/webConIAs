@@ -203,7 +203,7 @@ h1 { max-width: 650px; margin: 25px 0 22px; color: var(--navy); font-size: clamp
   .method-grid { grid-template-columns: 1fr; gap: 35px; }
   .method-copy h2 { max-width: 610px; }
   .closing { padding: 55px 0; }
-  .closing-card { display: grid; grid-template-columns: 58px 1fr; gap: 17px; padding: 25px 22px; }
+  .closing-card { display: grid; gap: 17px; padding: 25px 22px; }
   .closing-symbol { width: 55px; height: 55px; border-radius: 17px; font-size: 1.6rem; }
   .closing-copy { min-width: 0; }
   .closing-copy h2 { font-size: 1.65rem; }
@@ -250,4 +250,14 @@ h1 { max-width: 650px; margin: 25px 0 22px; color: var(--navy); font-size: clamp
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition-duration: .01ms !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; }
+}
+
+
+/* Acciones para reservar clases y contactar */
+.hero-actions, .method-actions, .closing-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; }
+.method-actions { margin-top: 8px; }
+.closing-actions { justify-content: flex-start; }
+@media (max-width: 560px) {
+  .hero-actions, .method-actions, .closing-actions { align-items: stretch; flex-direction: column; }
+  .hero-actions .button, .method-actions .button, .closing-actions .button { width: 100%; text-align: center; }
 }
